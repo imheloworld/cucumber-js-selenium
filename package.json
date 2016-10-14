@@ -1,0 +1,24 @@
+{
+  "name": "cucumber-js-selenium-webdriver-example",
+  "version": "0.0.1",
+  "description": "简单使用cucumber-js,selenium, appuim同时运行在pc,android,ios端测试example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imheloworld/cucumber-js-selenium.git"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/grunt"
+  },
+  "devDependencies": {
+    "cucumber": "^0.10.2",
+    "selenium-webdriver": "^2.53.2",
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-exec": "^0.4.7",
+    "grunt-env": "^0.4.4",
+    "sanitize-filename": "^1.6.0",
+    "appium": "^1.5.2"
+  }
+}
